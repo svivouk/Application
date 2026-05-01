@@ -58,6 +58,9 @@ kotlin {
             implementation(libs.kotlinx.coroutinesSwing)
             implementation(libs.kermit)
         }
+        jsMain.dependencies {
+            implementation(compose.components.resources)
+        }
     }
 }
 
